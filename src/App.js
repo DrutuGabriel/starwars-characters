@@ -15,9 +15,10 @@ class App extends Component {
 	}
 
 	componentDidMount(){
-		fetch('https://jsonplaceholder.typicode.com/users', 
-		{
-			mode: 'no-cors',
+		fetch('https://jsonplaceholder.typicode.com/users', {
+			headers: {
+				'Access-Control-Allow-Origin' : 'https://jsonplaceholder.typicode.com'
+			}
 		})
 		.then(response => response.json())
 		.then(users => this.setState({ monsters: users }));

@@ -25,7 +25,7 @@
   "permissions": [
     "*://developer.mozilla.org/*",
     "webRequest",
-    "*://localhost/*",
+    "*://localhost:3000/*",
     "*://jsonplaceholder.typicode.com/*",
     "*://realdevdare.github.io/*"
   ]
