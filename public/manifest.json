@@ -27,6 +27,6 @@
     "webRequest",
     "https://localhost/*",
     "https://jsonplaceholder.typicode.com/*",
-    "https://realdevdare.github.com/*",
+    "https://realdevdare.github.io/*"
   ]
 }
