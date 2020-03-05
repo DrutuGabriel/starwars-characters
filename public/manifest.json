@@ -28,6 +28,6 @@
     "*://localhost:3000/*",
     "*://jsonplaceholder.typicode.com/*",
     "https://jsonplaceholder.typicode.com/users",
-    "*://realdevdare.github.io/*"
+    "*://realdevdare.github.io"
   ]
 }
