@@ -11,6 +11,7 @@
   transform: translateZ(0);
   transition: transform 0.25s ease-out;
   width: 200px;
+  margin: 10px;
 }
 
 .card-container:hover {
