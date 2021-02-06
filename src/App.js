@@ -15,10 +15,6 @@ class App extends Component {
 		 };
 	}
 
-	componentDidMount(){
-	
-	}
-
 	handleChange = e => {
 		this.setState({ searchField: e.target.value});
 	}
@@ -36,6 +32,13 @@ class App extends Component {
 					placeholder="Search characters"
 					handleChange={ this.handleChange } />
 				<CardList characters={filteredCharacters} />
+				<div className="footer">
+					<span className="info">
+						<a href="https://devdare.com" target="_blank">
+							Made by DevDare
+						</a>
+					</span>
+				</div>
 			</div>
 		);
 	}
