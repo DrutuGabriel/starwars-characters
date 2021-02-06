@@ -1,9 +1,15 @@
+@font-face {
+  font-family: 'swjedi';
+  src: local('swjedi'), url(./fonts/Starjedi.ttf) format('opentype');
+}
+
 .App {
   text-align: center;
 }
 
 h1 {
-  font-family: 'Bigelow Rules', cursive;
-  font-size: 72px;
-  color: #0ccac4;
+  font-family: 'swjedi', cursive;
+  font-size: 42px;
+  line-height: 42px;
+  color: #fff;
 }

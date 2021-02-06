@@ -1,10 +1,10 @@
 .card-container {
   display: flex;
   flex-direction: column;
-  background-color: #95dada;
-  border: 1px solid grey;
+  background-color:rgba(0,0,0,0.6);
+  color: #fff;
   border-radius: 5px;
-  padding: 25px;
+  padding: 15px;
   cursor: pointer;
   -mos-osx-font-smoothing: grayscale;
   backface-visibility: hidden;
@@ -12,8 +12,22 @@
   transition: transform 0.25s ease-out;
   width: 200px;
   margin: 10px;
+  box-shadow: rgba(255, 255, 255, 0.3) 0px 4px 12px;
 }
 
 .card-container:hover {
   transform: scale(1.05);
+}
+
+.card-container .charImage {
+  height: 240px;
+  width: 100%;
+  background-size: cover;
+}
+
+.card-container .charDescription {
+  max-height: 150px;
+  overflow: hidden;
+  text-align: left;
+  overflow-y: auto;
 }

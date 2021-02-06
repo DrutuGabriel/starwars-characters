@@ -1,8 +1,8 @@
 {
-  "name": "monsters-rolodex",
+  "name": "starwars-characters",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://realdevdare.github.io/learn-react-proj-1",
+  "homepage": "https://realdevdare.github.io/starwars-characters",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
